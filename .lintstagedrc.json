@@ -1,0 +1,6 @@
+{
+    "*.ts(x)?": [
+      "yarn lint --fix --ignore-pattern '!.jest/'",
+      "yarn test:staged"
+    ]
+}

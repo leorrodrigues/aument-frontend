@@ -1,0 +1,11 @@
+{
+  "name": "Reactjs - Aument",
+  "short_name": "Aument",
+  "icons": [
+  ],
+  "background_color": "#1B73E6",
+  "description": "Website built with Typescript, React, NextJS e Styled Components",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#1B73E6"
+}
