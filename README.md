@@ -32,6 +32,10 @@
 
 Front-end application built with ReactJS and NextJS. Being a CRUD application for basic POSTS that contain tags and may have a photo associated with it. Additionally, a USER login was made, allowing only authenticated users to use the CRUD functionalities.
 
+The default user credentials are:
+- login: aument
+- password: aument
+
 ## :sparkles: Features ##
 
 :heavy_check_mark: User login/logout with Bearer authentication;\
