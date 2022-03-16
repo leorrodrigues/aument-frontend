@@ -12,6 +12,10 @@ export interface PostQueryPropsData {
     updatedBy: string;
 }
 
-export interface PostsQueryPropsData {
+export interface NewerPostsQueryPropsData {
     newerPosts: PostQueryPropsData[];
+}
+
+export interface PostsQueryPropsData {
+    posts: PostQueryPropsData[];
 }

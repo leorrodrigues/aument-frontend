@@ -12,7 +12,7 @@ import hasAccess from '@/utils/general/hasAccess';
 
 import { globalLoadingStore } from '@/stores/globalLoading';
 
-import { PostsQueryPropsData } from '../../Posts/queries/PostsQueryProps';
+import { NewerPostsQueryPropsData } from '../../Posts/queries/PostsQueryProps';
 import listNewerPostsQuery from './queries/listNewerPostsQuery';
 
 const { Title } = Typography;
@@ -20,10 +20,10 @@ const { Title } = Typography;
 const ListNewPosts = () => {
     const globalLoading = useRecoilValue(globalLoadingStore);
 
-    const [posts, setPosts] = useState<PostsQueryPropsData[]>([]);
+    const [posts, setPosts] = useState<NewerPostsQueryPropsData[]>([]);
 
     const [fetchPosts, { data: postsRawData }] =
-        useLazyQuery<PostsQueryPropsData>(listNewerPostsQuery, {
+        useLazyQuery<NewerPostsQueryPropsData>(listNewerPostsQuery, {
             fetchPolicy: 'no-cache',
         });
 
