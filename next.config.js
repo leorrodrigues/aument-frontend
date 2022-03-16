@@ -39,8 +39,8 @@ module.exports = withPlugins([
         withAntdLess,
         {
             modifyVars: {
-                '@primary-color': '#1B73E6',
-                '@processing-color': '#1B73E6',
+                '@primary-color': '#1B72E5',
+                '@processing-color': '#1B72E5',
             },
         },
     ],
