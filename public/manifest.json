@@ -2,6 +2,11 @@
   "name": "Reactjs - Aument",
   "short_name": "Aument",
   "icons": [
+    {
+        "src": "/img/logo_aument.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
   ],
   "background_color": "#1B73E6",
   "description": "Website built with Typescript, React, NextJS e Styled Components",
