@@ -4,4 +4,4 @@ if [ -t 1 ]; then
 fi
 . "$(dirname "$0")/_/husky.sh"
 
-yarn run test:ci --coverageReporters="text-summary" --silent
+# yarn run test:ci --coverageReporters="text-summary" --silent
